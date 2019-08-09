@@ -6,13 +6,42 @@ body
 
 header
 {
+    
     grid-area: header;
     background-color: aqua; 
 }
 
+.main-header
+{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-areas:
+    "banniere banniere banniere banniere banniere banniere banniere banniere banniere banniere banniere banniere "
+    
+
+}
+.main-nav
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+img
+{
+    grid-area: banniere;
+}
+
+
+
+
+
+
+
+
+
 main
 {
-    height: 55vh;
+    height: 70vh;
     background-color: blue;
     grid-area: main;
 }
@@ -26,7 +55,7 @@ aside
 }
 
 footer
-{
+{ 
     grid-area: footer;
     background-color: black;
 }
@@ -39,7 +68,7 @@ footer
     grid-gap: 10px;
     grid-template-areas: 
     "header header header header header header"
-    "header header header header header header"
+    "aside main main main main main"
     "aside main main main main main"
     "aside main main main main main"
     "footer footer footer footer footer footer"
