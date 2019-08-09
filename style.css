@@ -7,10 +7,10 @@ body
 
 header
 {
-    height: 50vh;
+    height: 42vh;
     grid-area: header;
     background-color: #8DB6BF;
-    box-shadow: 6px 6px 15px;
+    box-shadow: 0px 6px 15px;
 }
 
 
@@ -18,11 +18,43 @@ header
 {
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 20%;
     grid-template-areas:
     "banniere banniere banniere banniere banniere banniere banniere banniere banniere banniere banniere banniere "
-    
+    }
 
+    nav
+    {
+        margin-top: 17%;
+    }
+ ul {
+    
+    padding: 0;
+    width: 130vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0%
 }
+nav a
+{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.7em;
+  color: #3A3F3B;
+  padding-bottom: 3px;
+  text-decoration: none;
+  top:1%;
+  display: flex;
+}
+
+nav a:hover
+{
+    color: #760001;
+    
+     }
+
 
 img
 {
