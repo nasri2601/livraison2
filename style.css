@@ -1,15 +1,18 @@
 body
 {
+    background-color: #EAF1F2;
     padding: 0;
     margin: 0;
 }
 
 header
 {
-    
+    height: 50vh;
     grid-area: header;
-    background-color: aqua; 
+    background-color: #8DB6BF;
+    box-shadow: 6px 6px 15px;
 }
+
 
 .main-header
 {
@@ -20,24 +23,11 @@ header
     
 
 }
-.main-nav
-{
-    grid-column-start: 1;
-    grid-column-end: 5;
-}
 
 img
 {
     grid-area: banniere;
 }
-
-
-
-
-
-
-
-
 
 main
 {
@@ -65,14 +55,15 @@ main h2
 
 aside
 {
- background-color: brown;   
+margin-top: 20%;  
  grid-area: aside ;
 }
 
 footer
 { 
+    background-color: #8DB6BF;
     grid-area: footer;
-    background-color: black;
+    
 }
 
 .allblock
