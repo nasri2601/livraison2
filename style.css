@@ -36,18 +36,22 @@ main
     grid-area: main;
 }
 
-p
+main p
 {
-    border: solid black 3px;
+color: #3A3F3B;
+font-size: 1.2rem;
 margin-left: 10%;
 margin-top: 5%;
 margin-right: 10%;
+font-family: 'PT Sans', sans-serif;
 }
 main h2
 {
-    grid-row-start: 2;
-    border: solid black 3px;
-    text-align: center;
+ color: #3A3F3B;    
+font-size: 2rem;
+font-family: 'Roboto Slab', serif;
+grid-row-start: 2;
+text-align: center;
 
 }
 
