@@ -88,12 +88,25 @@ text-align: center;
 
 }
 
+main h1
+{
+    color: #3A3F3B; 
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+
+}
+
 
 
 aside
 {
 margin-top: 20%;  
  grid-area: aside ;
+}
+
+.aside-dentiste
+{
+    padding-left: 10%;
 }
 .main-footer
 { display: grid;
