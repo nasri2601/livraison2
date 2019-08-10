@@ -9,7 +9,8 @@ header
 {
     height: 42vh;
     grid-area: header;
-    background-color: #8DB6BF;
+    background-color: rgb(141, 182, 191, .7);
+    
     box-shadow: 0px 6px 15px;
 }
 
@@ -101,7 +102,7 @@ margin-top: 20%;
 
 footer
 { 
-    background-color: #8DB6BF;
+    background-color: rgb(141, 182, 191, .7);
     grid-area: footer;
     
 }
