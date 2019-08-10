@@ -107,7 +107,7 @@ footer
 }
 .adresse
 {
-    border: solid black 3px;
+    
     color: #3A3F3B; 
     font-family: 'Roboto Slab', serif;
     
@@ -119,6 +119,12 @@ footer
 footer ul li 
 {
     list-style: none;
+}
+
+.logo
+{
+  
+    margin-left: 30%;
 }
 
 .allblock
