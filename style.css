@@ -27,7 +27,7 @@ header
     {
         margin-top: 17%;
     }
- ul {
+ nav ul {
     
     padding: 0;
     width: 130vh;
@@ -94,12 +94,31 @@ aside
 margin-top: 20%;  
  grid-area: aside ;
 }
+.main-footer
+{ display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
 footer
 { 
     background-color: #8DB6BF;
     grid-area: footer;
     
+}
+.adresse
+{
+    border: solid black 3px;
+    color: #3A3F3B; 
+    font-family: 'Roboto Slab', serif;
+    
+    
+
+
+}
+
+footer ul li 
+{
+    list-style: none;
 }
 
 .allblock
