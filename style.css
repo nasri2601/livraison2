@@ -64,8 +64,8 @@ img
 
 main
 {
-    height: 80vh;
-    
+ background-color: rgb(141, 182, 191, .1);
+    height: 90vh;
     grid-area: main;
 }
 
@@ -90,7 +90,7 @@ text-align: center;
 .main-contact p
 {
     margin-left: 30%;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
 }
 
 main h1
