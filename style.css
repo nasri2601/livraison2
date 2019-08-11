@@ -87,6 +87,11 @@ grid-row-start: 2;
 text-align: center;
 
 }
+.main-contact p
+{
+    margin-left: 30%;
+    font-size: 1.7rem;
+}
 
 main h1
 {
