@@ -64,7 +64,7 @@ img
 
 main
 {
-    height: 70vh;
+    height: 80vh;
     
     grid-area: main;
 }
@@ -95,7 +95,38 @@ main h1
     text-align: center;
 
 }
+.main-urgences p 
+{
+    font-size: .9rem;
+}
 
+.table-horaires
+{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    margin-left: 30%;
+    margin-top: 7%;;
+}
+
+.numero-horaires
+{
+    
+    font-family: 'Roboto Slab', serif;
+    margin-left: 30%;
+    color: #3A3F3B;
+    font-size: 2rem; 
+}
+
+a
+{
+    color: #3A3F3B;
+    text-decoration: none
+}
+
+a:hover
+{
+    color: #760001;
+}
 
 
 aside
@@ -104,9 +135,9 @@ margin-top: 20%;
  grid-area: aside ;
 }
 
-.aside-dentiste
+.side-dentiste
 {
-    padding-left: 10%;
+    margin-right: 10%;
 }
 .main-footer
 { display: grid;
