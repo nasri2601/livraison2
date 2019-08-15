@@ -48,6 +48,13 @@ header
     margin-bottom: 0;
     margin-top: 0%
 }
+
+nav ul li:not(:last-child)
+{
+  border-right: 2px solid #3A3F3B;;
+  padding: 0 0.75rem;
+  color: #3A3F3B;
+}
 nav a
 {
   font-family: 'Roboto Slab', serif;
@@ -173,10 +180,16 @@ footer
     color: #3A3F3B; 
     font-family: 'Roboto Slab', serif;
     
-    
+  }
 
-
-}
+  .back-top
+  {
+   margin-left: 30%;
+   
+   font-family: 'Roboto Slab', serif;
+   font-size: 1.5rem;
+   grid-column: 2;
+  }
 
 footer ul li 
 {
@@ -185,7 +198,7 @@ footer ul li
 
 .logo
 {
-  
+  grid-column-start: 3;
     margin-left: 30%;
 }
 /*==========================================ALL BLOCKS=============================================*/
