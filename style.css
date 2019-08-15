@@ -227,12 +227,14 @@ footer ul li
   
   } 
 footer{grid-area: footer;
+  background-color: rgb(25, 41, 89,.6);
         position: fixed;bottom: 0%;
         height: 10vh;
     }
     aside{width: 0; grid-area: aside;}
     main{height: auto; grid-area: main}
     .main-header{height: auto;
+      background-color: rgb(25, 41, 89,.6);
     width: auto; grid-area: header;}
 
     aside img {display: none;}
