@@ -7,4 +7,4 @@ la plus grosse difficulté à ce niveau de la formation est le CSS est le placem
 
 <img src="./images/screen.png" />
 
-en formation avec l'organisme Simplon et Yes We Web pour devenir un futur devellopeur Web
+En formation avec l'organisme Simplon et Yes We Web pour devenir un futur devellopeur Web
