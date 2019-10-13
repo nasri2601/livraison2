@@ -1,4 +1,4 @@
-# livraison2 Cabinet de dentiste (dans le cadre d'un exercice pour la formation) niveau à 3semaine sur 8mois de formation
+# livraison2 Cabinet de dentiste (dans le cadre d'un exercice pour la formation) niveau à 3 semaine sur 8 mois de formation
 
 Téchno utilisé HTML/CSS only
 
